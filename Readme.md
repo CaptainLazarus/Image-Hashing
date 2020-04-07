@@ -11,3 +11,9 @@
     4. If **P[x] > P[x+1]**
         * 1
         * else 0
+
+* dmap.py has 2 main functions you can call. 
+    1. populate(list_of_paths , empty_dic)
+        * Populates the dictionary with hashes of the images
+    2. find(list_of_paths , dictionary)
+        * Returns the list of images that are already present.
